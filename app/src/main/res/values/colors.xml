@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modern Professional Palette -->
+    <color name="primary">#2D5AF0</color> <!-- Blue -->
+    <color name="primary_dark">#1A3ABF</color>
+    <color name="primary_light">#E9EFFF</color>
+    <color name="primary_container">#D9E2FF</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_container">#001945</color>
+    
+    <!-- Secondary Colors - Sophisticated Gray/Slate -->
+    <color name="secondary">#535F70</color>
+    <color name="secondary_container">#D7E3F7</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_secondary_container">#101C2B</color>
+    
+    <!-- Tertiary Colors - Accent Purple -->
+    <color name="tertiary">#6B528D</color>
+    <color name="tertiary_container">#EDDCFF</color>
+    
+    <!-- Background & Surface -->
+    <color name="background">#F8F9FE</color> <!-- Very light blue/gray tint -->
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#E1E2EC</color>
+    <color name="on_background">#1B1B1F</color>
+    <color name="on_surface">#1B1B1F</color>
+    <color name="on_surface_variant">#44474E</color>
+    
+    <!-- Status Colors -->
+    <color name="status_available">#00A651</color>
+    <color name="status_available_bg">#E6F6EE</color>
+    <color name="status_occupied">#2D5AF0</color>
+    <color name="status_occupied_bg">#E9EFFF</color>
+    <color name="status_maintenance">#F57C00</color>
+    <color name="status_maintenance_bg">#FFF3E0</color>
+    
+    <!-- Financial Status -->
+    <color name="income">#00C853</color>
+    <color name="income_bg">#E8F5E9</color>
+    <color name="expense">#FF5252</color>
+    <color name="expense_bg">#FFEBEE</color>
+    <color name="unpaid">#FF5252</color>
+    <color name="unpaid_bg">#FFF0F0</color>
+
+    <!-- Neutrals -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_800">#424242</color>
+    <color name="divider">#F0F0F0</color>
+    
+    <!-- Custom Elevation/Shadows -->
+    <color name="shadow_color">#1A000000</color>
+
+    <!-- Backward Compatibility Aliases -->
+    <color name="status_unpaid_bg">@color/unpaid_bg</color>
+    <color name="card_background">@color/white</color>
+    <color name="error">@color/unpaid</color>
+    <color name="error_container">@color/unpaid_bg</color>
+    <color name="on_error">@color/white</color>
+    <color name="outline">@color/gray_400</color>
+    <color name="gray">@color/gray_600</color>
+    <color name="gray_light">@color/gray_100</color>
+    <color name="status_paid">@color/status_available</color>
+    <color name="status_paid_bg">@color/status_available_bg</color>
+    <color name="status_unpaid">@color/unpaid</color>
+    <color name="warning">@color/status_maintenance</color>
+    <color name="warning_bg">@color/status_maintenance_bg</color>
+    <color name="warning_light">#FFF9C4</color>
+</resources>

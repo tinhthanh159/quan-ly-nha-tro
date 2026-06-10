@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Quản lý Nhà trọ</string>
+    
+    <!-- Navigation -->
+    <string name="nav_dashboard">Tổng quan</string>
+    <string name="nav_phong">Phòng</string>
+    <string name="nav_khach_thue">Khách thuê</string>
+    <string name="nav_hoa_don">Hóa đơn</string>
+    <string name="nav_thu_chi">Thu/Chi</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Tổng quan</string>
+    <string name="dashboard_tong_phong">Tổng số phòng</string>
+    <string name="dashboard_phong_trong">Phòng trống</string>
+    <string name="dashboard_phong_thue">Đang thuê</string>
+    <string name="dashboard_hoa_don_chua_thu">Hóa đơn chưa thu</string>
+    <string name="dashboard_doanh_thu_thang">Doanh thu tháng</string>
+    <string name="dashboard_tong_khach">Tổng khách thuê</string>
+    
+    <!-- Phòng -->
+    <string name="phong_title">Quản lý Phòng</string>
+    <string name="phong_them">Thêm phòng</string>
+    <string name="phong_sua">Sửa phòng</string>
+    <string name="phong_so_phong">Số phòng</string>
+    <string name="phong_loai">Loại phòng</string>
+    <string name="phong_gia_thue">Giá thuê</string>
+    <string name="phong_dien_tich">Diện tích (m²)</string>
+    <string name="phong_trang_thai">Trạng thái</string>
+    <string name="phong_mo_ta">Mô tả</string>
+    <string name="phong_trong">Trống</string>
+    <string name="phong_dang_thue">Đang thuê</string>
+    <string name="phong_dang_sua">Đang sửa</string>
+    
+    <!-- Khách thuê -->
+    <string name="khach_title">Quản lý Khách thuê</string>
+    <string name="khach_them">Thêm khách</string>
+    <string name="khach_sua">Sửa thông tin</string>
+    <string name="khach_ho_ten">Họ và tên</string>
+    <string name="khach_cccd">CCCD</string>
+    <string name="khach_sdt">Số điện thoại</string>
+    <string name="khach_email">Email</string>
+    <string name="khach_que_quan">Quê quán</string>
+    <string name="khach_nghe_nghiep">Nghề nghiệp</string>
+    <string name="khach_ngay_vao">Ngày vào</string>
+    <string name="khach_ngay_ra">Ngày ra</string>
+    <string name="khach_phong">Phòng</string>
+    <string name="khach_ghi_chu">Ghi chú</string>
+    
+    <!-- Hóa đơn -->
+    <string name="hoa_don_title">Quản lý Hóa đơn</string>
+    <string name="hoa_don_tao">Tạo hóa đơn</string>
+    <string name="hoa_don_thang">Tháng</string>
+    <string name="hoa_don_tien_phong">Tiền phòng</string>
+    <string name="hoa_don_tien_dich_vu">Tiền dịch vụ</string>
+    <string name="hoa_don_tong_tien">Tổng tiền</string>
+    <string name="hoa_don_da_thanh_toan">Đã thanh toán</string>
+    <string name="hoa_don_chua_thanh_toan">Chưa thanh toán</string>
+    <string name="hoa_don_thanh_toan">Thanh toán</string>
+    <string name="hoa_don_chi_so_dien">Chỉ số điện</string>
+    <string name="hoa_don_chi_so_nuoc">Chỉ số nước</string>
+    <string name="hoa_don_chi_so_cu">Chỉ số cũ</string>
+    <string name="hoa_don_chi_so_moi">Chỉ số mới</string>
+    
+    <!-- Dịch vụ -->
+    <string name="dich_vu_title">Quản lý Dịch vụ</string>
+    <string name="dich_vu_them">Thêm dịch vụ</string>
+    <string name="dich_vu_ten">Tên dịch vụ</string>
+    <string name="dich_vu_don_gia">Đơn giá</string>
+    <string name="dich_vu_don_vi">Đơn vị tính</string>
+    <string name="dich_vu_bat_buoc">Bắt buộc</string>
+    <string name="dich_vu_theo_chi_so">Tính theo chỉ số</string>
+    
+    <!-- Thu Chi -->
+    <string name="thu_chi_title">Quản lý Thu/Chi</string>
+    <string name="thu_chi_them">Thêm giao dịch</string>
+    <string name="thu_chi_thu">Thu</string>
+    <string name="thu_chi_chi">Chi</string>
+    <string name="thu_chi_so_tien">Số tiền</string>
+    <string name="thu_chi_danh_muc">Danh mục</string>
+    <string name="thu_chi_mo_ta">Mô tả</string>
+    <string name="thu_chi_ngay">Ngày giao dịch</string>
+    <string name="thu_chi_tong_thu">Tổng thu</string>
+    <string name="thu_chi_tong_chi">Tổng chi</string>
+    <string name="thu_chi_so_du">Số dư</string>
+    
+    <!-- Common -->
+    <string name="btn_luu">Lưu</string>
+    <string name="btn_huy">Hủy</string>
+    <string name="btn_xoa">Xóa</string>
+    <string name="btn_sua">Sửa</string>
+    <string name="btn_them">Thêm mới</string>
+    <string name="btn_dong">Đóng</string>
+    <string name="btn_xac_nhan">Xác nhận</string>
+    <string name="hint_tim_kiem">Tìm kiếm...</string>
+    <string name="msg_xoa_xac_nhan">Bạn có chắc muốn xóa?</string>
+    <string name="msg_luu_thanh_cong">Lưu thành công</string>
+    <string name="msg_xoa_thanh_cong">Xóa thành công</string>
+    <string name="msg_loi">Có lỗi xảy ra</string>
+    <string name="msg_chua_co_du_lieu">Chưa có dữ liệu</string>
+    <string name="msg_chon_phong">Chọn phòng</string>
+    <string name="don_vi_tien">đ</string>
+    <string name="don_vi_m2">m²</string>
+    
+    <!-- Validation -->
+    <string name="error_required">Không được để trống</string>
+    <string name="error_so_phong">Số phòng không hợp lệ</string>
+    <string name="error_gia_thue">Giá thuê không hợp lệ</string>
+    <string name="error_sdt">Số điện thoại không hợp lệ</string>
+    <string name="error_cccd">CCCD không hợp lệ</string>
+</resources>

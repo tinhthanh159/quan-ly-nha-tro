@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/nav_dashboard" />
+    
+    <item
+        android:id="@+id/nav_phong"
+        android:icon="@drawable/ic_room"
+        android:title="@string/nav_phong" />
+    
+    <item
+        android:id="@+id/nav_khach_thue"
+        android:icon="@drawable/ic_people"
+        android:title="@string/nav_khach_thue" />
+    
+    <item
+        android:id="@+id/nav_hoa_don"
+        android:icon="@drawable/ic_receipt"
+        android:title="@string/nav_hoa_don" />
+    
+    <item
+        android:id="@+id/nav_thu_chi"
+        android:icon="@drawable/ic_wallet"
+        android:title="@string/nav_thu_chi" />
+    
+</menu>

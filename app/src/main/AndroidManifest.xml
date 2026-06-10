@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    <!-- Permission để hiển thị thông báo (Android 13+) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Quanlytro">
+        
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".TenantMainActivity"
+            android:exported="false" />
+            
+        <!-- Auth -->
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="false" />
+        
+        <!-- Phòng -->
+        <activity
+            android:name=".ui.phong.ThemPhongActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <!-- Khách thuê -->
+        <activity
+            android:name=".ui.khachthue.ThemKhachThueActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".ui.khachthue.TaoHopDongActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".ui.settings.DocumentManagerActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".ui.dashboard.PostAnnouncementActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".ui.dashboard.ManageIssuesActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <!-- Hóa đơn -->
+        <activity
+            android:name=".ui.hoadon.TaoHoaDonActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <!-- Thu/Chi -->
+        <activity
+            android:name=".ui.thuchi.ThemThuChiActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <!-- Thống kê -->
+        <activity
+            android:name=".ui.thongke.ThongKeActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <!-- Cài đặt -->
+        <activity
+            android:name=".ui.settings.SettingsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <!-- FileProvider for sharing files -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        
+        <!-- Home Screen Widget -->
+        <receiver
+            android:name=".widget.StatsWidgetProvider"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/stats_widget_info" />
+        </receiver>
+            
+    </application>
+
+</manifest>
